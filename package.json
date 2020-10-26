@@ -1,0 +1,10 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "volta": {
+    "node": "12.8.1",
+    "yarn": "1.22.10"
+  }
+}
